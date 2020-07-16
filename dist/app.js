@@ -84,41 +84,17 @@
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/app.scss":
-/*!**********************!*\
-  !*** ./src/app.scss ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 0:
+/******/ ([
+/* 0 */
 /*!*****************************************!*\
   !*** multi ./src/app.js ./src/app.scss ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\lstor\Desktop\BooleanRepo\php-ajax-dischi\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\lstor\Desktop\BooleanRepo\php-ajax-dischi\src\app.scss */"./src/app.scss");
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\src\\app.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\src\\app.scss'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 /***/ })
-
-/******/ });
+/******/ ]);

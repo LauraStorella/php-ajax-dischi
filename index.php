@@ -10,11 +10,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/app.css">
     <link rel="shortcut icon" href="img/.ico">
-    <title>Template</title>
+    <title>Music</title>
   </head>
-  <body class="debu">
+  <body>
+
+    <div id="main-wrapper">
+
+      <!-- Header - Navbar -->
+      <header>
+        <div class="container">
+          <nav>
+            <img class="logo" src="img/logo.png" alt="Logo">
+          </nav>
+        </div>
+      </header>
+
+
+      <!-- Main - album musicali -->
+      <main>
+        <div class="cds-container container">
+          <section id="cds-box">
+            <?php foreach ($database as $cd) { ?>
+              <?php var_dump($database); ?>
+              <?php var_dump($cd); ?>
+              <div class="cd-box">
+                <img src="<?php echo $cd['poster']; ?>" alt="cd-cover">
+                <h3 class="cd-title"><?php echo $cd['title']; ?></h3>
+                <span class="cd-author"><?php echo $cd['author']; ?></span>
+                <span class="cd-year"><?php echo $cd['year']; ?></span>
+              </div>
+            <?php } ?>
+          </section>
+        </div>
+      </main>
+      
+    </div>
 
     <script type="text/javascript" src="js/script.js"></script>
 
