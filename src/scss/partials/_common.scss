@@ -11,11 +11,11 @@
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: $text_color;
+    color: whitesmoke;
+    background: $primary_color;
   }
   body div, span, ul, a {
     font-family: 'Open Sans', sans-serif;
-    color: $text_color;
   }
 
   img {
@@ -73,11 +73,7 @@ ul.list-unstyled {
   height: 100vh;
 }
 
-.container {
-  width: 1070px;
-  height: 100%;
-  margin: 0 auto;
-}
+
 
 
 

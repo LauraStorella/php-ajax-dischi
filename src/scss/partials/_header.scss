@@ -2,14 +2,23 @@
 header {
   width: 100%;
   height: 70px;
+  position: fixed;
+  top: 0;
+  background: rgb(46, 58, 70);
+
+  .container {
+    width: 1070px;
+    height: 80%;
+    margin: 0 auto;
+  }
 
   nav {
     width: 100%;
     height: 100%;
-    background: rgb(46, 58, 70);
+    
 
     .logo {
-      height: 50px;
+      width: 5%;
       margin-top: 10px;
     }
   }

@@ -1,13 +1,21 @@
 // --------------- Main
+main {
+  width: 100%;
+  min-height: calc( 100vh - 70px );
+  padding-top: 70px;
+}
+
 .cds-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 100px 0;
+  padding: 40px 0;
+  width: 80%;
+  margin: auto;
 }
 
-.cd {
+.cd-card {
   display: flex;
   justify-content: flex-start;
   align-items: center;

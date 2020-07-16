@@ -84,17 +84,41 @@
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/*!*****************************************!*\
-  !*** multi ./src/app.js ./src/app.scss ***!
-  \*****************************************/
+/******/ ({
+
+/***/ "./src/js/app.js":
+/*!***********************!*\
+  !*** ./src/js/app.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/scss/app.scss":
+/*!***************************!*\
+  !*** ./src/scss/app.scss ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n   ╷\n15 │     background: $primary_color;\r\n   │                 ^^^^^^^^^^^^^^\n   ╵\n  src\\scss\\partials\\_common.scss 15:17  @import\n  C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\src\\scss\\app.scss 1:9                             root stylesheet\n    at C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass-loader\\dist\\index.js:73:7\n    at Function.call$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:88191:16)\n    at _render_closure1.call$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:77610:12)\n    at _RootZone.runBinary$3$3 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:26152:18)\n    at _RootZone.runBinary$3 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:26156:19)\n    at _FutureListener.handleError$1 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24600:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24897:40)\n    at Object._Future__propagateToListeners (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:4311:88)\n    at _Future._completeError$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24725:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24117:12)\n    at Object._asyncRethrow (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:4065:17)\n    at C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:14087:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:4090:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24138:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24130:25)\n    at _RootZone.runBinary$3$3 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:26152:18)\n    at _RootZone.runBinary$3 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:26156:19)\n    at _FutureListener.handleError$1 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24600:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24897:40)\n    at Object._Future__propagateToListeners (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:4311:88)\n    at _Future._completeError$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24725:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24117:12)\n    at Object._asyncRethrow (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:4065:17)\n    at C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:16672:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:4090:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24138:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24130:25)\n    at _RootZone.runBinary$3$3 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:26152:18)\n    at _RootZone.runBinary$3 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:26156:19)\n    at _FutureListener.handleError$1 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24600:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:24897:40)\n    at Object._Future__propagateToListeners (C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\node_modules\\sass\\sass.dart.js:4311:88)");
+
+/***/ }),
+
+/***/ 0:
+/*!*************************************************!*\
+  !*** multi ./src/js/app.js ./src/scss/app.scss ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-!(function webpackMissingModule() { var e = new Error("Cannot find module 'C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\src\\app.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-!(function webpackMissingModule() { var e = new Error("Cannot find module 'C:\\Users\\lstor\\Desktop\\BooleanRepo\\php-ajax-dischi\\src\\app.scss'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+__webpack_require__(/*! C:\Users\lstor\Desktop\BooleanRepo\php-ajax-dischi\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\lstor\Desktop\BooleanRepo\php-ajax-dischi\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })
-/******/ ]);
+
+/******/ });

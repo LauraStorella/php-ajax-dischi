@@ -1,3 +1,5 @@
+<?php include 'database.php' ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -31,18 +33,16 @@
       <!-- Main - album musicali -->
       <main>
         <div class="cds-container container">
-          <section id="cds-box">
             <?php foreach ($database as $cd) { ?>
-              <?php var_dump($database); ?>
-              <?php var_dump($cd); ?>
-              <div class="cd-box">
+              <!-- <?php var_dump($database); ?>
+              <?php var_dump($cd); ?> -->
+              <div class="cd-card">
                 <img src="<?php echo $cd['poster']; ?>" alt="cd-cover">
                 <h3 class="cd-title"><?php echo $cd['title']; ?></h3>
                 <span class="cd-author"><?php echo $cd['author']; ?></span>
                 <span class="cd-year"><?php echo $cd['year']; ?></span>
               </div>
             <?php } ?>
-          </section>
         </div>
       </main>
       
