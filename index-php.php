@@ -14,7 +14,7 @@
     <script src="https://momentjs.com/downloads/moment.js"></script>
     <link rel="stylesheet" href="dist/app.css">
     <link rel="shortcut icon" href="img/.ico">
-    <title>Music</title>
+    <title>Spotify</title>
   </head>
   <body>
 
